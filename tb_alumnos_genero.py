@@ -16,7 +16,7 @@ print(df_alum_gender.dtypes)
 df_alum_gender.drop_duplicates('personal_id')
 df_alum_gender.count()
 
-df_alum_gender2 = df_alum_gender[['personal_id','gender']]
+df_alum_gender2 = df_alum_gender[['email','gender']]
 df_alum_gender2
 
 alumnos_genero= df_alum_gender2.to_numpy().tolist()
